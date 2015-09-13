@@ -1,0 +1,30 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "codic",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": { "file": "${packages}/codic/codic.sublime-settings" },
+                                "caption": "Settings - Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": { "file": "${packages}/User/codic.sublime-settings" },
+                                "caption": "Settings - User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

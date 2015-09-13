@@ -77,5 +77,3 @@ def plugin_loaded():
     if not prompt_api_token():
         sublime.set_timeout(plugin_loaded, 1000)
 
-if int(sublime.version()) < 3000:
-    plugin_loaded()
