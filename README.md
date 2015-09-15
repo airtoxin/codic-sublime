@@ -6,7 +6,7 @@ sublime text plugin for [codic](https://codic.jp/)
 
 You can install from [Package Control](https://sublime.wbond.net/).
 
-__Package Control: Install Package__ > Select __fluent-logger-sublimetext__
+__Package Control: Install Package__ > Select __codic__
 
 ## Settings
 
