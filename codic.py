@@ -7,13 +7,13 @@ import sublime_plugin
 import os
 import sys
 
+# third party modules installed via dependencies.json
+import requests
+
 BASE_URL = "https://api.codic.jp/v1/engine/translate.json?text={text}"
 PLUGIN_DIR = os.path.dirname(os.path.realpath(__file__))
 SETTING_FILE = "codic-sublime.sublime-settings"
 SETTINGS = None
-
-sys.path.insert(0, os.path.join(PLUGIN_DIR, 'libs'))
-import requests
 
 class CodicEngineCommand(sublime_plugin.ApplicationCommand):
     def run(self):
