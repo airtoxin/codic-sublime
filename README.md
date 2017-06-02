@@ -1,4 +1,4 @@
-# codic-sublime ![ST3](https://img.shields.io/badge/Sublime%20Text-build 3083-blue.svg)
+# codic-sublime ![ST3](https://img.shields.io/badge/Sublime%20Text-build%203083-blue.svg)
 
 sublime text plugin for [codic](https://codic.jp/)
 
